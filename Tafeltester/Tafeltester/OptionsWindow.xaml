@@ -1,0 +1,23 @@
+﻿<Window x:Class="Tafeltester.OptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tafeltester"
+        mc:Ignorable="d"
+        Title="Options" Height="1080" Width="1920" WindowStyle="None" WindowState="Maximized">
+    <Grid>
+        <Button Content="x" HorizontalAlignment="Left" Margin="88,34,0,0" VerticalAlignment="Top" Height="60" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="38" Click="Button_Click"/>
+        <Button Content="OPTIONS" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" Height="85" Width="402" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="52"/>
+        <Button Content="GEBRUIKERSNAAM:" HorizontalAlignment="Left" Margin="157,252,0,0" VerticalAlignment="Top" Height="85" Width="546" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="52"/>
+        <Button Content="MOEILIJKHEID:" HorizontalAlignment="Left" Margin="157,342,0,0" VerticalAlignment="Top" Height="85" Width="428" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="52"/>
+        <Grid HorizontalAlignment="Center" Height="730" Margin="0,252,0,0" VerticalAlignment="Top" Width="1606">
+            <TextBox x:Name="usernamefield" HorizontalAlignment="Left" Margin="1098,10,0,0" Text="username" TextWrapping="Wrap" VerticalAlignment="Top" Width="498" Height="85" FontSize="52"/>
+        </Grid>
+        <Button x:Name="saveSettings" Content="Opslaan" HorizontalAlignment="Center" Margin="0,987,0,0" VerticalAlignment="Top" Height="60" Width="239" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="38" Click="SaveSettings" Background="#FFECECEC"/>
+        <Button x:Name="easybutton" Content="Easy" HorizontalAlignment="Left" Margin="583,342,0,0" VerticalAlignment="Top" Height="85" Width="428" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="52" Click="easybutton_Click"/>
+        <Button x:Name="normalbutton" Content="Normal" HorizontalAlignment="Left" Margin="960,342,0,0" VerticalAlignment="Top" Height="85" Width="428" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="52" Click="normalbutton_Click"/>
+        <Button x:Name="hardbutton" Content="Hard" HorizontalAlignment="Left" Margin="1378,342,0,0" VerticalAlignment="Top" Height="85" Width="428" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="52" Click="hardbutton_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Tafeltester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tafeltester"
+        mc:Ignorable="d"
+        Title="Tafeltester" Height="1080" Width="1920" WindowStyle="None" WindowState="Maximized">
+    <Grid>
+        <Image x:Name="Background" Width="1920" Height="1080" Opacity="0.8"/>
+        <Button Content="x" HorizontalAlignment="Left" Margin="88,34,0,0" VerticalAlignment="Top" Height="60" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="38" Click="Button_Click"/>
+        <Button Content="PLAY" HorizontalAlignment="Left" Margin="88,94,0,0" VerticalAlignment="Top" Height="85" Width="158" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="52" Click="Button_Click_1"/>
+        <Button Content="HIGHSCORES" HorizontalAlignment="Left" Margin="88,179,0,0" VerticalAlignment="Top" Height="85" Width="365" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="52" Click="Button_Click_3"/>
+        <Button Content="OPTIONS" HorizontalAlignment="Left" Margin="88,269,0,0" VerticalAlignment="Top" Height="39" Width="120" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="24" Click="Button_Click_2"/>
+        <Button x:Name="usernamefield" Content="USERNAME" HorizontalAlignment="Left" Margin="960,34,0,0" VerticalAlignment="Top" Height="60" Width="919" Background="#FFDADADA" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="38" Click="usernamefield_Click"/>
+    </Grid>
+</Window>

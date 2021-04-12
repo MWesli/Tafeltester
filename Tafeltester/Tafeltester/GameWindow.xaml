@@ -1,0 +1,20 @@
+﻿<Window x:Class="Tafeltester.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tafeltester"
+        mc:Ignorable="d"
+    Title="Game Window" Height="1080" Width="1920" WindowStyle="None" WindowState="Maximized">
+    <Grid>
+        <Image x:Name="Background" Width="1920" Height="1080" Opacity="0.8" Source="/classroom.jpg"/>
+        <Button Content="x" HorizontalAlignment="Left" Margin="88,34,0,0" VerticalAlignment="Top" Height="60" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="38" Click="Button_Click"/>
+        <Label x:Name="somLabel" Content="Label" HorizontalAlignment="Left" Margin="446,392,0,0" VerticalAlignment="Top" Height="167" Width="1047" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="56" FontStyle="Normal" FontStretch="Normal"/>
+        <Label x:Name="labels1" Content="Som:" HorizontalAlignment="Left" Margin="643,378,0,0" VerticalAlignment="Top" Height="88" Width="653" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White" FontWeight="DemiBold" FontSize="36" FontStyle="Normal" FontStretch="Normal"/>
+        <Label x:Name="labels2" Content="Vul het antwoord in" HorizontalAlignment="Left" Margin="643,481,0,0" VerticalAlignment="Top" Height="88" Width="653" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White" FontWeight="DemiBold" FontSize="36" FontStyle="Normal" FontStretch="Normal"/>
+        <TextBox x:Name="awnserbox" HorizontalAlignment="Left" PreviewTextInput="PreviewTextInput" Margin="302,625,0,0" Text="Antwoord" TextWrapping="Wrap" VerticalAlignment="Top" Width="1336" Height="48" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="#72FFFFFF" BorderBrush="Black" FontSize="36" FontWeight="Bold" TextDecorations="{x:Null}" SelectionBrush="White" GotFocus="awnserbox_GotFocus"/>
+        <Button x:Name="nextButton" Content="Volgende" HorizontalAlignment="Left" Margin="854,748,0,0" VerticalAlignment="Top" Height="96" Width="230" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="#BFFFFFFF" BorderBrush="Black" FontSize="36" FontWeight="Bold" Click="Button_Click_1"/>
+        <Label x:Name="scorelabel" Content="Score: 0" HorizontalAlignment="Left" Margin="642,256,0,0" VerticalAlignment="Top" Height="88" Width="654" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White" FontWeight="DemiBold" FontSize="36" FontStyle="Normal" FontStretch="Normal"/>
+
+    </Grid>
+</Window>

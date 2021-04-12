@@ -1,0 +1,16 @@
+﻿<Window x:Class="Tafeltester.Highscores"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tafeltester"
+        mc:Ignorable="d"
+        Title="Highscores" Height="1080" Width="1920" WindowStyle="None" WindowState="Maximized">
+    <Grid>
+        <Button Content="x" HorizontalAlignment="Left" Margin="88,34,0,0" VerticalAlignment="Top" Height="60" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="38" Click="Button_Click"/>
+        <Button Content="HIGHSCORES" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" Height="85" Width="402" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Montserrat SemiBold" FontSize="52"/>
+        <Label x:Name="HighscoreLabel" Content="Highscore: 0" HorizontalAlignment="Center" Margin="0,342,0,0" VerticalAlignment="Top" Height="167" Width="1048" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="Black" FontWeight="Bold" FontSize="56" FontStyle="Normal" FontStretch="Normal"/>
+        <Label x:Name="CurrScoreLabel" Content="Current Score: 0" HorizontalAlignment="Center" Margin="0,649,0,0" VerticalAlignment="Top" Height="167" Width="1048" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="Black" FontWeight="Bold" FontSize="56" FontStyle="Normal" FontStretch="Normal"/>
+
+    </Grid>
+</Window>
